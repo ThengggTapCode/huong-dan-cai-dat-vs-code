@@ -1,0 +1,31 @@
+/* Nhúng font UTM Bebas */
+@font-face {
+  font-family: "UTM Bebas";
+  src: url("./fonts/UTM-Bebas.ttf") format("truetype");
+}
+
+/* Nhúng font Montserrat Bold*/
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("./fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+div.tieu-de-web h1 {
+  font-family: "UTM Bebas", sans-serif; /* chỉnh font bebas*/
+  font-size: 50px; /* chỉnh kích thước 50px*/
+  margin: 20px; /* chỉnh margin 10px*/
+  text-align: center; /* căn chỉnh chữ ở giữa*/
+}
+
+div.mo-dau-bai-viet h2 {
+  font-family: "Montserrat Bold", sans-serif;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 30px;
+}
+div.menu {
+  display: inline-block;
+  text-align: left;
+  margin: 10px;
+}
