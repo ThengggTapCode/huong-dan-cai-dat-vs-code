@@ -3,7 +3,11 @@
   font-family: "UTM Bebas";
   src: url("./fonts/UTM-Bebas.ttf") format("truetype");
 }
-
+/* Nhúng font Montserrat Medium */
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url("./fonts/Montserrat-Medium.ttf") format("truetype");
+}
 /* Nhúng font Montserrat Bold*/
 @font-face {
   font-family: "Montserrat Bold";
@@ -12,20 +16,59 @@
 
 div.tieu-de-web h1 {
   font-family: "UTM Bebas", sans-serif; /* chỉnh font bebas*/
-  font-size: 50px; /* chỉnh kích thước 50px*/
-  margin: 20px; /* chỉnh margin 10px*/
+  font-size: 60px; /* chỉnh kích thước 50px*/
+  margin: 30px; /* chỉnh margin 10px*/
   text-align: center; /* căn chỉnh chữ ở giữa*/
 }
 
 div.mo-dau-bai-viet h2 {
   font-family: "Montserrat Bold", sans-serif;
-  font-size: 25px;
-  margin-left: 100px;
-  margin-right: 100px;
-  line-height: 30px;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  line-height: 35px;
+  text-align: left;
 }
-div.menu {
+
+div.mo-dau-bai-viet img {
+  display: block;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+nav.menu div.menu {
   display: inline-block;
   text-align: left;
   margin: 10px;
+  font-size: 30px;
+  font-family: "Montserrat Bold";
+  margin: 50px;
+}
+
+div.menu ul li {
+  font-family: "Montserrat Bold";
+  font-size: 30px;
+  line-height: 35px;
+}
+
+div#vs-code-la-gi h2 {
+  font-family: "Montserrat Bold";
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+div#vs-code-la-gi p {
+  font-family: "Montserrat Medium";
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+div#vs-code-la-gi img {
+  display: block;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
