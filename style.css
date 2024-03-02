@@ -13,50 +13,58 @@
   font-family: "Montserrat Bold";
   src: url("./fonts/Montserrat-Bold.ttf") format("truetype");
 }
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
 
+main,
+header {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 20px;
+}
 h2 {
   font-family: "Montserrat Bold";
   font-size: 30px;
-  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 p {
   font-family: "Montserrat Medium";
   font-size: 25px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 20px;
   line-height: 30px;
 }
 
 img {
   display: block;
-  width: 700px;
-  border-radius: 10px;
+  width: 500px;
+  border-radius: 5px;
   display: block;
-  width: 700px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
+ul {
+  list-style-type: disc;
+}
+
 div.tieu-de-web h1 {
   font-family: "UTM Bebas", sans-serif; /* chỉnh font bebas*/
   font-size: 60px; /* chỉnh kích thước 50px*/
-  margin-top: 30px; /*Margin trên cùng 30px*/
-  margin-bottom: 30px; /*Margin dưới cùng 30px*/
-  margin-left: 30px;
-  margin-right: 30px;
   text-align: center; /* căn chỉnh chữ ở giữa*/
 }
 
 div.mo-dau-bai-viet h2 {
   font-family: "Montserrat Bold", sans-serif;
   font-size: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
   line-height: 35px;
   text-align: left;
 }
