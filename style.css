@@ -19,26 +19,42 @@ html {
   padding: 0;
 }
 
+body {
+  background-color: #14213d;
+}
+
 main,
-header {
+header,
+nav {
   max-width: 960px;
   margin: 0 auto;
 }
 
+a {
+  font-family: "Montserrat Medium";
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fca311;
+}
+
 h1 {
   margin: 20px;
+  color: #fca311;
 }
 h2 {
   font-family: "Montserrat Bold";
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: #fca311;
 }
 
 p {
   font-family: "Montserrat Medium";
   font-size: 25px;
   line-height: 30px;
+  color: #fca311;
 }
 
 img {
@@ -55,7 +71,6 @@ img {
 ul {
   list-style-type: disc;
 }
-
 div.tieu-de-web h1 {
   font-family: "UTM Bebas", sans-serif; /* chỉnh font bebas*/
   font-size: 60px; /* chỉnh kích thước 50px*/
@@ -67,4 +82,35 @@ div.mo-dau-bai-viet h2 {
   font-size: 30px;
   line-height: 35px;
   text-align: left;
+}
+
+.menu a {
+  display: inline-block;
+  line-height: 30px;
+  margin: 0px;
+  transition: 250ms;
+}
+
+.menu a:hover {
+  background-color: #fca311;
+  color: white;
+  padding: 5px 10px;
+  width: 300px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top: 10px;
+  color: #fca311;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+div.lien-he p {
+  text-align: center;
+}
+span a img {
+  width: 50px;
 }
