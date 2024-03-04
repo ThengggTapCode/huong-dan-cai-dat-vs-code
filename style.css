@@ -33,9 +33,9 @@ nav {
 a {
   font-family: "Montserrat Medium";
   text-decoration: none;
-  font-weight: bold;
-  font-size: 20px;
-  color: #fca311;
+  font-size: 25px;
+  color: #e5e5e5;
+  transition: 250ms;
 }
 
 h1 {
@@ -84,18 +84,38 @@ div.mo-dau-bai-viet h2 {
   text-align: left;
 }
 
+.menu h2 {
+  color: #e5e5e5;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 .menu a {
   display: inline-block;
   line-height: 30px;
-  margin: 0px;
+  margin: 10px;
   transition: 250ms;
+  width: 350px;
 }
 
 .menu a:hover {
   background-color: #fca311;
-  color: white;
+  color: #fcfcfc;
+  font-weight: bold;
   padding: 5px 10px;
-  width: 300px;
+  width: 350px;
+  margin: 8px;
+  border-radius: 5px;
+}
+p a:hover {
+  background-color: #fcfcfc;
+  color: #fca311;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+.dropdown {
+  width: 274.59px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -106,6 +126,7 @@ div.mo-dau-bai-viet h2 {
 
 .dropdown-content {
   display: none;
+  margin-left: 25px;
 }
 
 div.lien-he p {
