@@ -19,6 +19,10 @@ html {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #14213d;
   margin-left: 50px;
@@ -100,13 +104,15 @@ div.mo-dau-bai-viet h2 {
   margin: 10px;
   transition: 250ms;
   width: 350px;
+  background-color: #0f131d;
+  padding: 10px;
 }
 
 .menu a:hover {
   background-color: #fca311;
   color: #fcfcfc;
   font-weight: bold;
-  padding: 5px 10px;
+  padding: 15px;
   width: 350px;
   margin: 8px;
   border-radius: 5px;
